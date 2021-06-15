@@ -6,7 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nwkami5010/React-gulu-ui.git"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "webpack": "^5.39.0",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "typescript": "^4.3.2"
+  }
 }
