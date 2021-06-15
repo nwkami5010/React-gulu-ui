@@ -19,8 +19,9 @@
   "homepage": "https://github.com/FrankFang/frank-test-2#readme",
   "devDependencies": {
     "awesome-typescript-loader": "^5.2.1",
-    "typescript": "^3.3.3333",
+    "typescript": "^4.3.2",
     "webpack": "^4.29.6",
-    "webpack-cli": "^3.2.3"
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.11.2"
   }
 }
