@@ -6,7 +6,7 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, 'dist/lib'),
-        library: 'FUI',
+        library: 'React-gulu-ui',
         libraryTarget: 'umd',
     },
     module: {
