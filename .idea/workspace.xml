@@ -20,7 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22dd06d1-fd1d-4b41-91be-0490f1bd66cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/icons/alipay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/icons/qq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/icons/wechat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/importIcons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/types/custom.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/lib/button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/lib/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +46,7 @@
       <list>
         <option value="TypeScript JSX File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -65,7 +80,8 @@
       <workItem from="1623930711466" duration="13000" />
       <workItem from="1628063105034" duration="922000" />
       <workItem from="1628146140053" duration="8721000" />
-      <workItem from="1628224482696" duration="757000" />
+      <workItem from="1628224482696" duration="1671000" />
+      <workItem from="1628407716058" duration="1392000" />
     </task>
     <task id="LOCAL-00001" summary="第一次配置">
       <created>1623743801168</created>
@@ -116,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628225085933</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="完成最终配置">
+      <created>1628225538362</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1628225538362</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,9 +170,14 @@
     <MESSAGE value="添加webpack的resolve配置" />
     <MESSAGE value="tsx文件引入React，不打包React" />
     <MESSAGE value="直接copy最终版的package.json，index.d.ts 移到 dist 目录里了" />
-    <option name="LAST_COMMIT_MESSAGE" value="直接copy最终版的package.json，index.d.ts 移到 dist 目录里了" />
+    <MESSAGE value="完成最终配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成最终配置" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1205" y="456" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1628225412351">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1205" y="456" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1628225412351" />
     <state x="1341" y="373" key="FileChooserDialogImpl" timestamp="1623829958571">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -166,9 +194,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1032" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1623743814172" />
-    <state x="671" y="549" width="672" height="678" key="search.everywhere.popup" timestamp="1623824747392">
+    <state x="671" y="549" width="672" height="678" key="search.everywhere.popup" timestamp="1628407774242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="671" y="549" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1623824747392" />
+    <state x="671" y="549" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1628407774242" />
   </component>
 </project>

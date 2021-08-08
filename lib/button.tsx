@@ -4,6 +4,6 @@ function Button(){
     <div>
       按钮
     </div>
-  )
+  );
 }
-export default Button
+export default Button;
