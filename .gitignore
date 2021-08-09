@@ -1,7 +1,7 @@
+/.idea
 /dist/*
 # Logs
 logs
-/.idea
 *.log
 npm-debug.log*
 yarn-debug.log*

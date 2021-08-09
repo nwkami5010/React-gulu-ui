@@ -1,16 +1,15 @@
 import React from 'react';
-import './importIcons'
+import './importIcons';
+import './icon.scss';
 interface  IconProps {
   name: string;
 }
 
 const Icon: React.FC<IconProps> = (props) => {
   return (
-    <span>
-      <svg>
-        <use xlinkHref={`#${props.name}`}/>
-      </svg>
-    </span>
+    <svg className="hu-icon">
+      <use xlinkHref={`#${props.name}`}/>
+    </svg>
   );
 };
 export default Icon;
