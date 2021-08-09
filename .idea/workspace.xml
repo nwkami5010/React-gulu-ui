@@ -20,29 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22dd06d1-fd1d-4b41-91be-0490f1bd66cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/icon.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/__tests__/__snapshots__/button.unit.tsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/lib/__tests__/__snapshots__/button.unit.tsx.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/__tests__/button.unit.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/lib/__tests__/button.unit.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/__tests__/hello.unit.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/lib/__tests__/hello.unit.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/lib/button.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/lib/icon.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/icons/alipay.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lib/icons/alipay.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/icons/qq.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lib/icons/qq.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/icons/wechat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/lib/icons/wechat.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/lib/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/types/custom.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/types/custom.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.dev.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.prod.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +69,7 @@
       <workItem from="1628146140053" duration="8721000" />
       <workItem from="1628224482696" duration="1671000" />
       <workItem from="1628407716058" duration="1392000" />
-      <workItem from="1628492216561" duration="1290000" />
+      <workItem from="1628492216561" duration="1609000" />
     </task>
     <task id="LOCAL-00001" summary="第一次配置">
       <created>1623743801168</created>
@@ -149,7 +127,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628225538362</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="添加 CSS">
+      <created>1628497967924</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1628497967924</updated>
+    </task>
+    <task id="LOCAL-00010" summary="添加 onClick 事件">
+      <created>1628498215906</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1628498215906</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +173,9 @@
     <MESSAGE value="tsx文件引入React，不打包React" />
     <MESSAGE value="直接copy最终版的package.json，index.d.ts 移到 dist 目录里了" />
     <MESSAGE value="完成最终配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成最终配置" />
+    <MESSAGE value="添加 CSS" />
+    <MESSAGE value="添加 onClick 事件" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加 onClick 事件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1205" y="456" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1628225412351">
