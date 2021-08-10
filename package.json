@@ -1,6 +1,6 @@
 {
   "name": "hu666",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "dist/lib/index",
   "types": "dist/lib/index",
@@ -15,15 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FrankFang/frank-test-2.git"
+    "url": "git+https://github.com/nwkami5010/React-gulu-ui.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FrankFang/frank-test-2/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/FrankFang/frank-test-2#readme",
+  "homepage": "https://github.com/nwkami5010/React-gulu-ui#readme",
   "devDependencies": {
     "@babel/preset-env": "^7.3.4",
     "@babel/preset-react": "^7.0.0",
