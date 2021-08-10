@@ -16,11 +16,16 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22dd06d1-fd1d-4b41-91be-0490f1bd66cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +80,7 @@
       <workItem from="1628407716058" duration="1392000" />
       <workItem from="1628492216561" duration="3646000" />
       <workItem from="1628515652073" duration="2823000" />
-      <workItem from="1628575541984" duration="13247000" />
+      <workItem from="1628575541984" duration="14820000" />
     </task>
     <task id="LOCAL-00001" summary="第一次配置">
       <created>1623743801168</created>
@@ -231,7 +236,28 @@
       <option name="project" value="LOCAL" />
       <updated>1628613664843</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add deploy.sh">
+      <created>1628615439756</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1628615439756</updated>
+    </task>
+    <task id="LOCAL-00024" summary="update publish job">
+      <created>1628616864900</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1628616864900</updated>
+    </task>
+    <task id="LOCAL-00025" summary="update filters">
+      <created>1628616944291</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1628616944291</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +273,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -276,7 +314,10 @@
     <MESSAGE value="auto publish" />
     <MESSAGE value="update:0.0.2" />
     <MESSAGE value="update:0.0.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="update:0.0.3" />
+    <MESSAGE value="add deploy.sh" />
+    <MESSAGE value="update publish job" />
+    <MESSAGE value="update filters" />
+    <option name="LAST_COMMIT_MESSAGE" value="update filters" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1205" y="456" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1628225412351">
@@ -295,10 +336,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1033" y="341" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1623740957862" />
-    <state x="622" y="334" key="Vcs.Push.Dialog.v2" timestamp="1628586016397">
+    <state x="622" y="334" key="Vcs.Push.Dialog.v2" timestamp="1628616949057">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="622" y="334" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1628586016397" />
+    <state x="622" y="334" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1628616949057" />
     <state x="671" y="549" width="672" height="678" key="search.everywhere.popup" timestamp="1628499849561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
