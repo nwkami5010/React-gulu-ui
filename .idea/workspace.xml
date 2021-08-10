@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22dd06d1-fd1d-4b41-91be-0490f1bd66cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/icon.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/icon.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/importIcons.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +36,9 @@
         <option value="TypeScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,7 +74,8 @@
       <workItem from="1628224482696" duration="1671000" />
       <workItem from="1628407716058" duration="1392000" />
       <workItem from="1628492216561" duration="3646000" />
-      <workItem from="1628515652073" duration="1380000" />
+      <workItem from="1628515652073" duration="2823000" />
+      <workItem from="1628575541984" duration="13247000" />
     </task>
     <task id="LOCAL-00001" summary="第一次配置">
       <created>1623743801168</created>
@@ -159,7 +161,77 @@
       <option name="project" value="LOCAL" />
       <updated>1628498584439</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="snapshow+jest">
+      <created>1628520408084</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1628520408084</updated>
+    </task>
+    <task id="LOCAL-00014" summary="snapshow+jest">
+      <created>1628520419362</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1628520419362</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add ci config">
+      <created>1628583742209</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1628583742209</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add ci script">
+      <created>1628583801699</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1628583801699</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add jest-junit">
+      <created>1628585638046</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1628585638046</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add csstype">
+      <created>1628586010183</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1628586010183</updated>
+    </task>
+    <task id="LOCAL-00019" summary="update">
+      <created>1628587830270</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1628587830270</updated>
+    </task>
+    <task id="LOCAL-00020" summary="auto publish">
+      <created>1628602709060</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1628602709060</updated>
+    </task>
+    <task id="LOCAL-00021" summary="update:0.0.2">
+      <created>1628605000147</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1628605000147</updated>
+    </task>
+    <task id="LOCAL-00022" summary="update:0.0.3">
+      <created>1628613664843</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1628613664843</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +267,16 @@
     <MESSAGE value="添加 onClick 事件" />
     <MESSAGE value="onClick 类型完善" />
     <MESSAGE value="简化参数" />
-    <option name="LAST_COMMIT_MESSAGE" value="简化参数" />
+    <MESSAGE value="snapshow+jest" />
+    <MESSAGE value="add ci config" />
+    <MESSAGE value="add ci script" />
+    <MESSAGE value="add jest-junit" />
+    <MESSAGE value="add csstype" />
+    <MESSAGE value="update" />
+    <MESSAGE value="auto publish" />
+    <MESSAGE value="update:0.0.2" />
+    <MESSAGE value="update:0.0.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="update:0.0.3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1205" y="456" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1628225412351">
@@ -214,10 +295,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1033" y="341" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1623740957862" />
-    <state x="1032" y="256" key="Vcs.Push.Dialog.v2" timestamp="1623743814172">
+    <state x="622" y="334" key="Vcs.Push.Dialog.v2" timestamp="1628586016397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1623743814172" />
+    <state x="622" y="334" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1628586016397" />
     <state x="671" y="549" width="672" height="678" key="search.everywhere.popup" timestamp="1628499849561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
