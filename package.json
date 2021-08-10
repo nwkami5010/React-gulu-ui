@@ -1,6 +1,7 @@
 {
-  "name": "hu666",
-  "version": "0.0.2",
+  "name": "hutaoui-react",
+
+  "version": "0.0.1",
   "description": "",
   "main": "dist/lib/index",
   "types": "dist/lib/index",
@@ -19,7 +20,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": ""
   },
